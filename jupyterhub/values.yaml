@@ -2,7 +2,7 @@ hub:
   service:
     type: ClusterIP
   baseUrl: "/"
-  cookieSecret: null
+  cookieSecret: 'e450dcd63957bee12b3e75ecdbcb929db13380279c212f86b96aa6a260e410f1'
   rbac:
     enabled: false
   publicURL: null
