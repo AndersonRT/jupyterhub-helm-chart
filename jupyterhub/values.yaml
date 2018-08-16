@@ -31,7 +31,7 @@ hub:
   imagePullPolicy: IfNotPresent
 
 proxy:
-  secretToken: 'generate with openssl rand -hex 64'
+  secretToken: 'e450dcd63957bee12b3e75ecdbcb929db13380279c212f86b96aa6a260e410f1'
   service:
     type: LoadBalancer
     labels: {}
