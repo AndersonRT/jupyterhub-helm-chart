@@ -96,7 +96,7 @@ singleuser:
   cmd: jupyterhub-singleuser
 
 prePuller:
-  enabled: true
+  enabled: false
   image:
     name: yuvipanda/image-allnodes-puller
     tag: v0.8
